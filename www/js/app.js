@@ -14,6 +14,8 @@ define(function(require) {
     require('layouts/view');
     require('layouts/list');
 
+    require('js/croquette.js');
+
     function formatDate(d) {
         return (d.getMonth()+1) + '/' +
             d.getDate() + '/' +
